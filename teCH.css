@@ -1,0 +1,161 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+.container{
+    width: 100%;
+}
+.header-main{
+    width: 100%;
+    border: 1px solid red;
+    display: flex;
+    background: rgb(126, 2, 2);
+}
+.header-intro{
+    width: 50%;
+    padding: 8rem;
+}
+.header-img{
+    width: 50%;
+}
+
+.header-img img{
+    width: 80%;
+    margin-right: 5rem;
+}
+.header-intro h1{
+    font-size: 3rem;
+    width: 90%;
+    color: white;
+    padding-top: 5rem;
+}
+.header-intro p{
+    font-size: .9rem;
+    width: 50%;
+    color: white;
+    padding-top: 1rem;
+}
+.btn-one{
+    padding: .8rem 2rem;
+    outline: none;
+    border: none;
+    border-radius: 50px;
+    margin-top: 1rem;
+    background: yellow;
+    color: black;
+}
+.btn-two{
+    margin-top: 1rem;
+    padding: .8rem 2rem;
+    outline: none;
+    /* border: none; */
+    background: transparent;
+    border-radius: 50px;
+    color: white;
+    border: 1px solid white;
+    margin-left: 1rem;
+}
+.menu{
+    display: flex;
+    width: 100%;
+}
+.menu-intro{
+    width: 50%;
+    padding-top: 10rem;
+    padding-left: 8rem;
+}
+.menu-plan{
+    width: 50%;
+}
+.menu-intro h1{
+    width: 50%;
+    font-size: 3rem;
+}
+.menu-intro p{
+    width: 50%;
+    font-size: .8rem;
+}
+.btn-three{
+    padding: .8rem 2rem;
+    outline: none;
+    border: none;
+    border-radius: 50px;
+    margin-top: 1rem;
+    background: black;
+    color: white;
+}
+
+.menu-plan{
+    width: 50%;
+}
+
+.menu-plan{
+    display: flex;
+}
+.menu-img-one{
+    width: 15rem;
+    gap: 1rem;
+    /* border: 1px solid red; */
+    position: absolute;
+    left: 35%;
+    top: 55rem;
+    height: 18rem;
+}
+.menu-img-one:hover{
+    background: rgb(224, 221, 221);
+    border-radius: 50px;
+}
+.menu-img-two:hover{
+    background: rgb(224, 221, 221);
+    border-radius: 50px;
+}
+.menu-img-three:hover{
+    background: rgb(224, 221, 221);
+    border-radius: 70px;
+}
+.menu-img-two{
+    top: 55rem;
+    height: 18rem;
+    width: 15rem;
+    gap: 1rem;
+    /* border: 1px solid red; */
+    position: absolute;
+    left: 55%;
+}
+.menu-img-three{
+    width: 15rem;
+    height: 18rem;
+    top: 55rem;
+    gap: 1rem;
+    /* border: 1px solid red; */
+    position: absolute;
+    left: 75%;
+}
+.menu-img-one img{
+    width: 80%;
+    position: relative;
+    right: -1rem;
+    top: -6rem;
+}
+.menu-img-two img{
+    top: -6rem;
+    width: 80%;
+    position: relative;
+    right: -1rem;
+}
+.menu-img-three img{
+    right: -1rem;
+    top: -6rem;
+    width: 80%;
+    position: relative;
+}
+.price-list{
+    text-align: center;
+    position: relative;
+    top: -3rem;
+}
+
+.tag{
+    top: -4rem;
+}
